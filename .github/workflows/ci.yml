@@ -2,9 +2,9 @@ name: Senior DevOps CI Pipeline
 
 on:
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 permissions:
   contents: read
